@@ -1,0 +1,202 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+#contacto , #index{
+    background-image: url('../imagenes/fondo-contacto.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#proyecto, #sobreMi{
+    background-image: url('../imagenes/fondo-proyectos.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.fotoPerfil{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 10px white solid;    
+}
+#sobreMi .tecno{
+    background: linear-gradient(to right, #ba2615, #FF2C2C)
+}
+#sobreMi h2{
+    color: white;
+    font-size: 25px;
+}
+h1{
+    color: #E20000;
+}
+nav .active{
+    border: 1px solid #e20000 ;
+    border-radius: 20px;
+}
+
+p{
+ color: #6a6a6a;
+ font-size: 16px;
+}
+
+.form-control{
+    border-radius: 20px;
+    
+}
+
+.btn-rojo{
+    background-color:#e20000 ;
+    color: white;
+    border-radius: 20px;
+    font-weight: 100;
+    border: 0px;
+}
+.btn-rojo:hover{
+    background-color: #370a6d;
+    color: white;
+}
+
+.btn-blanco{
+    background-color: white;
+    color: #370a6d;
+    border-radius: 20;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.btn-blanco:hover{
+    background-color: #370a6d;
+    color: white;
+    border: 0px;
+}
+
+.nav-link{
+    color: #282828;
+}
+
+textarea{
+    height: 150px;
+}
+
+footer a{
+    color: white;
+    
+}
+
+footer{
+    font-weight: 100;
+    color: white;
+    margin-top: 75px;
+}
+
+footer .fa-github{
+    font-size: 36px;
+}
+footer .fa-linkedin-in{
+    font-size: 36px;
+}
+footer .fa-whatsapp{
+    font-size: 30px;
+    
+}
+.bloquewhatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 80px;
+    background-color: #370a6d;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.cohete{
+    height: 400px;
+}
+.div-cohete{
+    height: 430px;
+}
+.cohete:hover{
+    height: 410px;
+}
+#proyecto h3{
+    font-size: 16px;
+    color: white;
+}
+#proyecto p{
+    font-size: 14px;
+}
+.p-proyecto{
+    height: 200px;
+}
+nav .fa-bars{
+    color: #E20000;
+}
+.navbar-toggler{
+    border: 1px solid #E20000;
+
+}
+.proyecto-btn-link{
+    color: #e20000;
+    text-decoration: none;
+}
+.proyecto-btn-link:hover{
+    color: #370a6d;
+}
+#proyecto footer , #proyecto footer a{
+    color: #e20000;
+}
+#proyecto .fa-whatsapp{
+    color: white;
+}
+#index p{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 3px 10%;
+    font-size: 15px;
+    
+}
+@media (max-width: 750px) {/* Para mobile */
+
+    #contacto {
+        background-image: url(../images/fondo-proyectos.png);
+    }
+   .bloquewhatsapp{
+       bottom: 0px;
+       right: 15px;
+   }
+   .fa-whatsapp{
+       color: white !important;
+   }
+   .fa-bars{
+       color: black !important;
+       
+   }
+   .navbar-toggler{
+    border: black solid 1px;
+   }
+   .imput-home p{
+       color: #E20000 !important;
+       border: 1px solid #E20000 !important;
+       width: auto !important;
+   }
+   #contacto footer, #contacto footer a, #index footer, #index footer a{
+       color:#E20000;
+       text-align: center;
+   }
+   #proyecto footer{
+    text-align: center;
+   }
+  
+    #index{
+        background-image: url(../imagenes/fondo-proyectos.png);
+    }
+    #index p{
+        color: red;
+        border: 1px solid #E20000;
+        margin: auto;
+    }
+}
+
+
