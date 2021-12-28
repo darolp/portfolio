@@ -191,6 +191,9 @@ nav .fa-bars{
 #proyecto .fa-whatsapp, #sobreMi .fa-whatsapp{
     color: white;
 }
+#proyecto img {
+    height: 210px;
+}
 #index p{
     text-decoration: none;
     color: white;
