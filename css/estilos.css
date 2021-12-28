@@ -40,6 +40,14 @@ h4{
     color: #e20000;
     font-size: 17px;
 }
+.div-icono{
+    background-color: #370a6d;
+    border-radius: 15px;
+}
+.fa-comment-alt , .fa-star{
+    font-size: 80px;
+    color: white;
+}
 #formacion h6, #cursos h6{
     color: #6A6A6A;
     font-size: 14px;
@@ -121,7 +129,7 @@ footer a{
 }
 
 footer{
-    font-weight: 100;
+    font-weight: 300;
     color: white;
     margin-top: 75px;
 }
@@ -177,10 +185,10 @@ nav .fa-bars{
 .proyecto-btn-link:hover{
     color: #370a6d;
 }
-#proyecto footer , #proyecto footer a{
+#proyecto footer , #proyecto footer a, #sobreMi footer, #sobreMi footer a{
     color: #e20000;
 }
-#proyecto .fa-whatsapp{
+#proyecto .fa-whatsapp, #sobreMi .fa-whatsapp{
     color: white;
 }
 #index p{
@@ -196,8 +204,8 @@ nav .fa-bars{
 }
 @media (max-width: 750px) {/* Para mobile */
 
-    #contacto {
-        background-image: url(../images/fondo-proyectos.png);
+    #contacto{
+        background-image: url('../imagenes/fondo-proyectos.png');
     }
    .bloquewhatsapp{
        bottom: 0px;
@@ -208,7 +216,6 @@ nav .fa-bars{
    }
    .fa-bars{
        color: black !important;
-       
    }
    .navbar-toggler{
     border: black solid 1px;
@@ -222,7 +229,7 @@ nav .fa-bars{
        color:#E20000;
        text-align: center;
    }
-   #proyecto footer{
+   footer{
     text-align: center;
    }
   
