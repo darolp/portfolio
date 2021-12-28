@@ -22,9 +22,39 @@ body{
 #sobreMi h3{
     font-size: 15px;
 }
-.img-js{
-    height: 60px;
-    width: 60px;
+.card{
+    height: 182px;
+}
+h4{
+    color: #370a6d;
+}
+#formacion h3, #cursos h3{
+    color: #e20000;
+    font-size: 24px;
+}
+#formacion h4, #cursos h4{
+    color: #6A6A6A;
+    font-size: 18px;
+}
+#formacion h5, #cursos h5{
+    color: #e20000;
+    font-size: 17px;
+}
+#formacion h6, #cursos h6{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+.exp-laboral h4{
+    color: #6a6a6a !important;
+    font-size: 18px;
+}
+.exp-laboral h5{
+    color: #370a6d !important;
+    font-size: 17px;
+}
+.exp-laboral h6{
+    color: #6a6a6a;
+    font-size: 14px;
 }
 #sobreMi .tecno{
     background: linear-gradient(to right, #ba2615, #f02f17)
