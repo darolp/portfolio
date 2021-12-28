@@ -19,8 +19,15 @@ body{
     border-radius: 50%;
     border: 10px white solid;    
 }
+#sobreMi h3{
+    font-size: 15px;
+}
+.img-js{
+    height: 60px;
+    width: 60px;
+}
 #sobreMi .tecno{
-    background: linear-gradient(to right, #ba2615, #FF2C2C)
+    background: linear-gradient(to right, #ba2615, #f02f17)
 }
 #sobreMi h2{
     color: white;
