@@ -64,7 +64,7 @@
             <div class="container pb-5">
                 <div class="row">
                     <div class="col-12 py-3 my-4">
-                        <h2>Stack tecnologico</h2>
+                        <h2 class="mb-0">Stack tecnologico</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -152,7 +152,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 my-5">
-                        <h4><i class="fas fa-briefcase"></i> Experiencia laboral</h4>
+                        <h4 class="mb-0"><i class="fas fa-briefcase"></i> Experiencia laboral</h4>
                     </div>
                 </div>
                 <div class="row border shadow">
@@ -250,11 +250,12 @@
                 </div>
             </div>
         </section>
+        
         <section id="formacion">
             <div class="container">
                 <div class="row">
                     <div class="col-12 my-5">
-                        <h3><i class="fas fa-graduation-cap"></i> Formacion academica</h3>
+                        <h3 class="mb-0"><i class="fas fa-graduation-cap"></i> Formacion academica</h3>
                     </div>
                 </div>
                 <div class="row border shadow">
@@ -305,7 +306,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 my-5">
-                        <h3><i class="fas fa-graduation-cap"></i> Cursos de desarrollo profesional</h3>
+                        <h3 class="mb-0"><i class="fas fa-graduation-cap"></i> Cursos de desarrollo profesional</h3>
                     </div>
                 </div>
                 <div class="row border shadow">
@@ -412,7 +413,7 @@
                             <div class="col-4 text-center card div-icono">
                                 <i class="fas fa-star my-auto"></i>
                             </div>
-                            <div class="col-8 p-5">
+                            <div class="col-8 p-4">
                                 <h3>HOBBIES</h3>
                                 
                                     <h6>Magia</h6>

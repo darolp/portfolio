@@ -70,7 +70,7 @@
                     <p class="p-proyecto">Alta, baja y modificación de un registro de clientes. Realizado en HTML, CSS, PHP, Bootstrap y Json.</p>
                 </div>
                 <div class="row">
-                    <div class="col-6 ps-4 pb-2">
+                    <div class="col-6 ps-4 pb-3">
                         <a href="" class="btn btn-rojo">Ver online</a>
                     </div>
                     <div class="col-6 ps-4">
@@ -91,7 +91,7 @@
                     <p class="p-proyecto">Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</p>
                 </div>
                 <div class="row">
-                    <div class="col-6 ps-4 pb-2">
+                    <div class="col-6 ps-4 pb-3">
                         <a href="" class="btn btn-rojo">Ver online</a>
                     </div>
                     <div class="col-6 ps-4">
@@ -112,7 +112,7 @@
                     <p class="p-proyecto">Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.</p>
                 </div>
                 <div class="row">
-                    <div class="col-6 ps-4 pb-2">
+                    <div class="col-6 ps-4 pb-3">
                         <a href="" class="btn btn-rojo">Ver online</a>
                     </div>
                     <div class="col-6 ps-4">
