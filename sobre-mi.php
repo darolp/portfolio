@@ -26,16 +26,16 @@
                 <div class="collapse navbar-collapse " id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
                         <li class="nav-item px-1">
-                            <a class="nav-link  px-4 py-1" href="index.html">Inicio</a>
+                            <a class="nav-link  px-4 py-1" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item px-1">
-                            <a class="nav-link px-4 active py-1" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link px-4 active py-1" href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item px-1">
-                            <a class="nav-link px-4  py-1" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link px-4  py-1" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item px-1">
-                            <a class="nav-link  px-4 py-1" href="contacto.html">Contacto</a>
+                            <a class="nav-link  px-4 py-1" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class="d-inline">
@@ -71,25 +71,25 @@
                     <div class="col-sm-2 col-6 text-center">
                         <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
                             <h3>Java Sript</h3>
-                            <img class="img-js mx-auto img-fluid" width="60" src="/imagenes/javascript.jpeg" alt="">
+                            <img class="img-js mx-auto img-fluid" width="60" src="imagenes/javascript.jpeg" alt="">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
                         <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
                             <h3>PHP</h3>
-                            <img class="img-js mx-auto img-fluid" width="60" src="/imagenes/php.jpg" alt="">
+                            <img class="img-js mx-auto img-fluid" width="60" src="imagenes/php.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
                         <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
                             <h3>HTML5</h3>
-                            <img class="img-js mx-auto img-fluid" width="60" src="/imagenes/html.png" alt="">
+                            <img class="img-js mx-auto img-fluid" width="60" src="imagenes/html.png" alt="">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
                         <div class="card px-4 py-5 mx-0 mb-4 mb-sm-0">
                             <h3>React.js</h3>
-                            <img class="img-js mx-auto img-fluid" width="60" src="/imagenes/react.png" alt="">
+                            <img class="img-js mx-auto img-fluid" width="60" src="imagenes/react.png" alt="">
                         </div>
                     </div>
                     <div class="col-sm-2 col-6 text-center">
