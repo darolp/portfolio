@@ -64,7 +64,7 @@ h4{
     color: #6a6a6a;
     font-size: 14px;
 }
-#sobreMi .tecno{
+#sobreMi .tecno, .gradiante{
     background: linear-gradient(to right, #ba2615, #f02f17)
 }
 #sobreMi h2{
@@ -193,6 +193,12 @@ nav .fa-bars{
 }
 #proyecto img {
     height: 210px;
+}
+.filter-gray{
+    filter: grayscale(100%);
+}
+.filter-gray:hover{
+    filter: grayscale(0%);
 }
 #index p{
     text-decoration: none;
