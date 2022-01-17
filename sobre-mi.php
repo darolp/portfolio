@@ -358,7 +358,7 @@
                             <div class="col-2 my-auto py-3 d-none d-sm-block">
                                 <img class="img-fluid filter-gray" src="imagenes/sin-logo.png" alt="">
                             </div>
-                            <div class="col-12- col-sm-10 p-3">
+                            <div class="col-12- col-sm-10  p-3">
                                 <h4>RELLENO</h4>
                                 <h5>RELLENO</h5>
                                 <h6>RELLENO</h6>
@@ -373,7 +373,7 @@
             <div class="container px-0">
                 <div class="row py-5 mx-0">
                     <div class="col-sm-6 col-12 pb-3 pb-sm-0">
-                        <div class="row shadow me-sm-1">
+                        <div class="row shadow radius me-sm-1">
                             <div class="col-4 text-center card div-icono">
                                 <i class="fas fa-comment-alt my-auto"></i>
                             </div>
@@ -387,7 +387,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-12 ">
-                        <div class="row shadow ms-sm-1">
+                        <div class="row shadow radius ms-sm-1">
                             <div class="col-4 text-center card div-icono">
                                 <i class="fas fa-star my-auto"></i>
                             </div>
