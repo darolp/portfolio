@@ -3,7 +3,7 @@ body{
     margin: 0px;
 }
 
-#contacto , #index{
+#contacto , #index, #msgGracias{
     background-image: url('../imagenes/fondo-contacto.png');
     background-size: 100%;
     background-repeat: no-repeat;

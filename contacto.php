@@ -1,9 +1,32 @@
-<!DOCTYPE html>
-<html lang="es">
-
 <?php 
     $pg ="contacto";
+    
+    if(isset($_POST["btnEnviar"])){
+    $correo = $_POST["txtCorreo"];
+    $asunto = "contacto desde tu pagina web";
+    $nombre = $_POST["txtNombre"];
+    $telefono = $_POST["txtTelefono"];
+    $mensaje = $_POST["txtMensaje"];
+    $cuerpo ="
+    Nombre: $nombre <br>
+    Correo: $correo <br>
+    Telefono: $telefono <br>
+    mensaje: $mensaje 
+    ";
+    
+    $header = 'MIME-Version: 1.0' . "\r\n";
+    $header .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $header .= 'To: dariopizzi12@gmail.com . "\r\n"';
+    $header .= "From: contacto@dario.com.ar . \"\r\n\"";
+    $mail = mail("dariopizzi12@gmail.com", $asunto, $cuerpo, $header);
+    if($mail){
+        header("location: gracias_por_contactarte.php");
+    }
+    }
 ?>
+
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,11 +39,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css?v=<?php echo rand(100,500)?>">
-
 </head>
-
 <body id="contacto">
-
 <?php include_once "header.php" ?>
 
 
