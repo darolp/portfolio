@@ -206,13 +206,14 @@ nav .fa-bars{
 #index p{
     text-decoration: none;
     color: white;
-    display: inline;
-    border: 1px solid white;
+    display: inline;    
     box-sizing: border-box;
+    padding: 3px;
+    font-size: 15px;    
+}
+.p-home{
+    border: 1px solid white;    
     border-radius: 15px;
-    padding: 3px 10%;
-    font-size: 15px;
-    
 }
 @media (max-width: 750px) {/* Para mobile */
 
