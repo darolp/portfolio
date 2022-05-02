@@ -49,10 +49,10 @@
                 </div>
                 <div class="row">
                     <div class="col-6 ps-4 pb-3">
-                        <a href="" class="btn btn-rojo">Ver online</a>
+                        <a href="" target="_blank" class="btn btn-rojo">Ver online</a>
                     </div>
                     <div class="col-6 ps-4">
-                        <a href="" class="proyecto-btn-link">Codigo fuente</a>
+                        <a href="https://github.com/darolp/abmclientes" target="_blank" class="proyecto-btn-link">Codigo fuente</a>
                     </div>
                 </div>
             </div>
@@ -70,10 +70,10 @@
                 </div>
                 <div class="row">
                     <div class="col-6 ps-4 pb-3">
-                        <a href="" class="btn btn-rojo">Ver online</a>
+                        <a href=""  target="_blank" class="btn btn-rojo">Ver online</a>
                     </div>
                     <div class="col-6 ps-4">
-                        <a href="" class="proyecto-btn-link">Codigo fuente</a>
+                        <a href="https://github.com/darolp/abmventas" target="_blank" class="proyecto-btn-link">Codigo fuente</a>
                     </div>
                 </div>
             </div>
@@ -91,10 +91,10 @@
                 </div>
                 <div class="row">
                     <div class="col-6 ps-4 pb-3">
-                        <a href="" class="btn btn-rojo">Ver online</a>
+                        <a href="https://heaven-fit.com/" target="_blank" class="btn btn-rojo">Ver online</a> 
                     </div>
                     <div class="col-6 ps-4">
-                        <a href="" class="proyecto-btn-link">Codigo fuente</a>
+                        <a href="https://github.com/depcsuite/heavenfit" target="_blank" class="proyecto-btn-link">Codigo fuente</a>
                     </div>
                 </div>
             </div>
